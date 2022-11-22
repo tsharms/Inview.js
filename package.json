@@ -1,19 +1,19 @@
 {
-    "name": "inview.js",
+    "name": "inview-observer.js",
     "version": "0.0.1",
     "description": "A simple inview plugin using the intersection observer",
-    "source": "src/inview.js",
-    "main": "build/inview.js",
-    "umd:main": "build/inview.min.js",
-    "module": "build/inview.module.js",
-    "unpkg": "build/inview.min.js",
+    "source": "src/inview-observer.js",
+    "main": "build/inview-observer.js",
+    "umd:main": "build/inview-observer.min.js",
+    "module": "build/inview-observer.module.js",
+    "unpkg": "build/inview-observer.min.js",
     "scripts": {
         "build": "microbundle",
         "dev": "microbundle watch"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/tsharms/inview.js.git"
+        "url": "https://github.com/tsharms/inview-observer.js.git"
     },
     "keywords": [
         "Inview",
@@ -23,9 +23,9 @@
     "author": "Tom Harms",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/tsharms/inview.js/issues"
+        "url": "https://github.com/tsharms/inview-observer.js/issues"
     },
-    "homepage": "https://github.com/tsharms/inview.js#readme",
+    "homepage": "https://github.com/tsharms/inview-observer.js#readme",
     "devDependencies": {
         "microbundle": "^0.15.0"
     }
