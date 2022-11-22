@@ -1,4 +1,4 @@
-# Inview.js plugin
+# inview-observer.js plugin
 
 This plugin is created to add simple inview animations to your website. It uses [IntersectionObserver](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API) and simple CSS to create elegant inview animations.
 
@@ -7,7 +7,7 @@ This plugin is created to add simple inview animations to your website. It uses 
 ### Installation
 Install package via NPM
 
-`npm i inview.js --save`
+`npm i inview-observer.js --save`
 
 ### Example HTML
 ```
@@ -31,12 +31,12 @@ Install package via NPM
 ### Initialize plugin
 
 ```
-import Inview from 'inview.js';
+import InviewObserver from 'inview-observer.js';
 
 document.addEventListener('DOMContentLoaded', () => {
-    const inview = Inview();
+    const inviewObserver = InviewObserver();
 
-    inview.init();
+    inviewObserver.init();
 });
 ```
 
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
 You can overwrite the default options:
 
 ```
-inview.init({
+inviewObserver.init({
     element: '.js-inview-element',
     observerOptions: {
 		rootMargin: '100px 0px',

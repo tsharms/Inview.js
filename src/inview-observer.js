@@ -2,7 +2,7 @@
 /*  SIMPLE INVIEW PLUGIN
 /*------------------------------------------------------------------------*/
 
-const Inview = (() => {
+const InviewObserver = (() => {
     let settings;
     let observer;
 
@@ -96,4 +96,4 @@ const Inview = (() => {
     return { init, destroy, checkInView };
 });
 
-export default Inview;
+export default InviewObserver;
