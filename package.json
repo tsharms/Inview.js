@@ -1,6 +1,6 @@
 {
     "name": "inview-observer.js",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "A simple inview plugin using the intersection observer",
     "source": "src/inview-observer.js",
     "main": "build/inview-observer.js",
